@@ -6,7 +6,6 @@ project在 /project 下
 | ---- | ------- | ----- |
 | <a href="https://pypi.org/project/evdev/" target="_blank"> evdev </a> | `pip3 install evdev` | usb通讯|
 | <a href="https://pypi.org/project/websocket-client/" target="_blank"> websocket-client </a> | pip3 install websocket-client | ws 通讯 |
-| sox | `pip3 install sox` | play audio |
 | <a href="https://pypi.org/project/Flask/" target="_blank"> flask </a> | `pip3 install flask`| 搭建http 服务|
 | <a href="https://pypi.org/project/Flask-Cors/" target="_blank"> flask-cors </a> | `pip3 install flask-cors`| 服务跨域 |
 
@@ -32,3 +31,5 @@ number = 3
 
 
 ```
+## tips
+- 使用sox 播放音频 > `apt install sox`
