@@ -8,7 +8,7 @@ class exception(object):
     
     def not_usb(self):
         print('error: did not recognize the usb touch device')
-        os.system('aplay -D hw:0,0 ./wav/ununited.wav')
+        os.system('play ./wav/ununited.wav')
         sys.exit()
 
 
