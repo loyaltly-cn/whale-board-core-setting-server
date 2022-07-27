@@ -1,5 +1,5 @@
 # core-setting-server 核心板配置 服务端 
-
+project在 /project 下
 ## pipy 
 
 | name | command | effect |
