@@ -33,3 +33,9 @@ number = 3
 ```
 ## tips
 - 使用sox 播放音频 > `apt install sox`
+
+## flask server 参数
+```python
+if __name__ == '__main__':
+    server.run(debug = True,port = 2333,host = '0.0.0.0')
+```
