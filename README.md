@@ -40,7 +40,7 @@ if __name__ == '__main__':
     server.run(debug = True,port = 2333,host = '0.0.0.0')
 ```
 
-## 物理板区分
+## 物理板区分 TouchMouse TouchScreen
 > 通过 物理板名称获取对应的驱动文件
 
 ```python
@@ -54,4 +54,4 @@ class device(object):
                 
                 return dev.path
 ```
-``dev.name
+`dev.name`
