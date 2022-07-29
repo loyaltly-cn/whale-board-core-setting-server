@@ -39,3 +39,19 @@ number = 3
 if __name__ == '__main__':
     server.run(debug = True,port = 2333,host = '0.0.0.0')
 ```
+
+## 物理板区分
+> 通过 物理板名称获取对应的驱动文件
+
+```python
+class device(object):
+    
+    def path(self):
+
+        devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
+        for dev in devices:
+            if dev.name == 'Uiworks Uiwrks Touchscreen' or dev.name == 'USBest Technology SiS HID Touch Controller':
+                
+                return dev.path
+```
+``dev.name
